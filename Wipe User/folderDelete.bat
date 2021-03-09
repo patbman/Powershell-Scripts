@@ -1,0 +1,1 @@
+psexec.exe \\%1 powershell.exe -command "& {Remove-item c:\Users\%2 -force -recurse}
