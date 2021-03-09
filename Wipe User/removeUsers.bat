@@ -1,0 +1,1 @@
+PsExec.exe \\%1 powershell.exe -command "& {Remove-LocalUser -Name '%2'}"

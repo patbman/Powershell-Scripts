@@ -1,0 +1,2 @@
+PsExec.exe \\%1 powershell.exe -command "& {Remove-LocalUser -Name '%2'}"
+PsExec.exe \\%1 powershell.exe -command "& {Get-CimInstance -Class Win32_UserProfile | Where-Object { $_.LocalPath.split('\')[-1] -eq '%2' } | Remove-CimInstance}"

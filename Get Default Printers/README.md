@@ -1,0 +1,1 @@
+A basic script that will get the defualt printer of either the computer its run on or if given a hostname it will get the default printer of that machine 
